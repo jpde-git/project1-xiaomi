@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Below{
+	width: 2000px;
+	height: 90px;
+	border-top: 1px solid #000;
+	margin-top: 2850px;
+}
+.Below-list{
+	width: 800px;
+	height: 90px;
+	margin-left: 500px;
+}
+.Below span{
+	line-height: 90px;
+	float: left;
+	margin-left: 100px;
+}
+.Below-list .list1{
+	font-size: 21px;
+	color: #A6A7A6;
+}
+.Below-list .list2{
+	font-size: 21px;
+	color: #ccc;
+}
+.Below-list .list1:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+.back{
+	width: 100%;
+	height: 24700px;
+	background: #eeee;
+}
+.back-list{
+	float: left;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.back-list1{
+	float: right;
+	margin-top: 80px;
+	font-size: 19px;
+}
+.back-img img{
+	margin-top: 60px;
+	float: left;
+	width: 1425px;
+}
+.back-img1 img{
+	width: 1425px;
+}
+.back-img2 img{
+	width: 1425px;
+	margin-top: 20px;
+}

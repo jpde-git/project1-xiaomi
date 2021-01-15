@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<script src="js/js通用类.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+				function ran(){
+					var oPassd2 = document.getElementById('shou').value
+					var oMa2 = document.getElementById('sjh')
+					var oValue3 = shou.value ;
+					if(oValue3.length !=11 || oValue3[0] !=1 ){
+						oMa2.innerHTML = '请输入正确的手机号,谢谢'
+					}else{
+						oMa2.innerHTML = '输入手机号正确'
+					}
+				}
+		</script>
+	</head>
+	<body>
+		<div class="margin">
+			<div class="container">
+				<div class="min">
+					<div class="logo"><img src="img/mi-logo.png"></div>
+					<div class="list">
+						<h4>注册小米帐号</h4>
+					</div>
+					<div class="min-list">
+						<div class="list-star">
+							<p>国家/地区</p>
+						</div>
+						<div class="min-list1">
+							<select name="" id="" style="height: 40px; width: 350px;border: 0;background-color:#F2F2F2;margin-top: 50px;margin-left: -80px;">
+								<option value="">中国</option>
+								<option value="">美国</option>
+								<option value="">英国</option>
+								<option value="">法国</option>
+								<option value="">韩国</option>
+								<option value="">日本</option>
+							</select><br>
+							<span>成功注册帐号后，国家/地区将不能被修改</span>
+						</div>
+						<div class="min-list2">
+							<span>手机号码</span>
+							<select name="" id="" style="height: 40px; width: 80px;border: 0;background-color:#F2F2F2;margin-top: 35px; float: left;margin-left: -70px;">
+								<option value="">+86</option>
+								<option value="">+1</option>
+								<option value="">+15</option>
+								<option value="">+63</option>
+								<option value="">+46</option>
+								<option value="">+70</option>
+							</select>
+							<div id="put"><input type="text" name="" onblur="ran();" id="shou" style="width: 280px;height: 40px;margin-top: 35px;background-color:#F2F2F2;border: 0;"/></div>
+							<span id="sjh">请输入正确的手机号</span>
+						</div>
+						<a href="http://127.0.0.1:8848/millets/Sign.html"><div id="tj" style="background-color: #FF6700; width: 350px;
+							height: 50px;font-size: 20px; line-height: 50px;text-align: center;margin-left: 210px;margin-top: 30px;color: white;
+							cursor: pointer;">
+							立即注册
+						</div></a>
+						<div class="tt">
+							<span class="b">已阅读并同意：小米</span>
+							<span class="a"> 用户协议</span>
+							<span class="b">和 </span>
+							<span class="a">隐私政策</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.home-page{
+	width: 100%;
+	height: 70px;
+	background: #F5F5F5;
+}
+.home-page span{
+	line-height: 70px;
+}
+.home-page .home-sp{
+	margin-left: -100px;
+}
+.home-page .home-sp:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+.home-page .home-sp1:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+.page-home{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+}
+.page-home span{
+	margin: 50px;
+}
+.page-home .home-sp{
+	margin-left: -100px;
+	color: #e0e0e0;
+}
+.page-home .home-sp1:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+
+.page-margin{
+	width: 100%;
+	height: 1000px;
+	background-color: #F5F5F5;
+}
+.home-list{
+	width: 500px;
+	height: 70px;
+	margin-left: -100px;
+	line-height: 70px;
+	float: left;
+}
+.home-list .list1-home{
+	margin-left: 30px;
+}
+.home-list .list2-home{
+	margin-left: 30px;
+}
+.list2-home{
+	color: #ccc;
+	float: left;
+}
+.list1-home:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+.home1-list{
+	float: right;
+	width: 560px;
+	height: 70px;
+	margin-right: -100px;
+	
+}
+.list-div{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background: #FFF;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.list-div span{
+	line-height: 30px;
+	margin-left: 15px;
+}
+.list1-home{
+	float: left;
+	line-height: 70px;
+	margin-left: 20px;
+}
+.home1-list input{
+	margin-top: 30px;
+	font-size: 30px;
+	margin: 30px;
+}
+.complete{
+	width: 1425px;
+	height: 624px;
+	float: left;
+	margin-left: -100px;
+	margin-top: 30px;
+}
+.show1-right{
+	width: 1425px;
+	height: 614px;
+	float: right;
+	/* display: none; */
+}
+.show1-right .show-li{
+	width: 255px;
+	height: 299px;
+	float: left;
+	text-align: center;
+	background: #fff;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: 0.3s;
+}
+.show1-li img{
+	width: 160px;
+	height: 160px;
+	margin-top: 25px;
+}
+.show1-right .show-li:hover{
+	box-shadow: 4px 4px 20px #bbb;
+	cursor: pointer;
+	top: -2px;
+}
+.min-pic1{
+	width: 1425px;	height: 120px;
+	margin-left: -100px;
+	
+}
+.min-pic1 img{
+	width: 1425px;
+	height: 120px;
+	margin-top: 50px;
+}

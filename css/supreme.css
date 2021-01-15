@@ -1,0 +1,426 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.container{
+	width: 1425px;
+	margin: 0 auto;
+}
+.nav-box{
+	width: 100%;
+	height: 70px;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 1px #eee;
+	background: #fff;
+	margin-top: -20px;
+}
+.box-list{
+	width: 500px;
+	height: 70px;
+	margin-left: -100px;
+	line-height:70px;
+	float: left;
+	margin-top: -20px;
+	
+}
+.box-list h2{
+	float: left;
+}
+.box-list span{
+	float: left;
+	margin-left: 10px;
+	color: #999;
+}
+.box-list p{
+	float: left;
+	margin-left: 10px;
+}
+.box-list2{
+	width: 800px;
+	height: 70px;
+	float: right;
+	margin-top: -20px;
+	margin-right: -100px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 70px;
+}
+.box-list2 span{
+	font-size: 20px;
+	color: #999;
+}
+.box-list2 p{
+	font-size: 18px;
+}
+.box-list2 p:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+.box-list p:hover{
+	color: #FF6700;
+	cursor: pointer;
+}
+/* 轮播图 */
+.rotation{
+	width: 700px;
+	height: 600px;
+	margin-left: 150px;
+	margin-top: 50px;
+	float: left;
+}
+.box-pic{
+	width: 560px;
+	height: 560px;
+	position: relative;
+	margin-left: 60px;
+}
+.pic-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.pic-img:nth-child(1){
+	opacity: 1;
+}
+.box-left{
+	position: absolute;
+	width: 35px;
+	height: 70px;
+	color: #ccc;
+	top: 250px;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+	line-height: 70px;
+	font-size: 40px;
+}
+.box-left:hover{
+	background-color: #00000050;
+}
+.box-right{
+	position: absolute;
+	width: 35px;
+	height: 70px;
+	color: #ccc;
+	top: 250px;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+	line-height: 70px;
+	font-size: 40px;
+	right: 0;
+}
+.box-right:hover{
+	background-color: #00000050;
+}
+.box-zhidian>ul{
+	/* padding: 0;
+	margin: 0;
+	list-style: none */;
+	position: absolute;
+	bottom: 10px;
+	margin-left: 90px;
+}
+.box-zhidian li{
+	width: 50px;
+	height: 5px;
+	background: #ccc;
+	float: left;
+	margin-left: 20px;
+}
+/* 主内容 */
+.nine{
+	float: right;
+	width: 800px;
+	height: 1000px;
+	margin-top: 50px;
+	margin-right: -100px;
+}
+#pic{
+	width: 230px;
+	height: 70px;
+}
+#pic img{
+	margin-top: 20px;
+	width: 50px;
+	height: 24px;
+}
+#pic h4{
+	float: right;
+	line-height: 70px;
+	font-size: 21px;
+}
+
+.nine-wz{
+	width: 800px;
+	height: 135px;
+}
+.nine-wz p{
+	color: #FF6700;
+	float: left;
+}
+.nine-wz span{
+	float: right;
+	margin-top: -20px;
+	margin-right: 100px;
+	color: #C2B0B0;
+}
+.nine-wz .u{
+	float: left;
+	margin-top: 10px;
+	color: #C2B0B0;
+}
+.nine-list img{
+	cursor: pointer;
+}
+.choice{
+	margin-top: 200px;
+}
+.choice-color{
+	width: 800px;
+	height: 200px;
+}
+.choice-color span{
+	font-size: 25px;
+}
+.color{
+	border: 1px solid #000;
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+}
+.color a{
+	font-size: 21px;
+	line-height: 50px;
+	margin-left: 130px;
+}
+/* .color:hover a{
+	color: #FF6700;
+}
+.color1:hover a{
+	color: #FF6700;
+}
+.color2:hover a{
+	color: #FF6700;
+} */
+.color1{
+	border: 1px solid #000;
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+	float: right;
+	margin-top: -110px;
+}
+.color1 a{
+	font-size: 21px;
+	line-height: 50px;
+	margin-left: 120px;
+}
+.color2{
+	border: 1px solid #000;
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+	float: right;
+	margin-top: -50px;
+}
+.color2 a{
+	font-size: 21px;
+	line-height: 50px;
+	margin-left: 120px;
+}
+.protection{
+	cursor: pointer;
+}
+.protection-a span{
+	font-size: 21px;
+}
+.protection-a .a-span{
+	float: right;
+	font-size: 18px;
+	color: #FF6700;
+}
+.protection-in{
+	width: 800px;
+	height: 200px;
+	border: 1px solid #000;
+	margin-top: 10px;
+}
+.circular{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular1{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular2{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular3{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular4{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular5{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.circular6{
+	 width: 15px;
+	 height: 15px;
+	 border-radius: 100%;
+	 border: 1px solid #000;
+	 margin-top: 70px;
+	 margin-left: 50px;
+	 float: left;
+}
+.log{
+	float: left;
+	margin-top: -150px;
+	margin-left: 80px;
+}
+.list-a{
+	float: left;
+	margin-top: -140px;
+	margin-left: 130px;
+}
+.price-list{
+	width: 50px;
+	height: 20px;
+	border-radius: 100px;
+	float: left;
+	margin-top: -133px;
+	margin-left: 280px;
+	background: #FF6700;
+}
+.price-list1{
+	float: left;
+	margin-top: -100px;
+	margin-left: 130px;
+	color: #ccc;
+}
+.price-list2{
+	float: left;
+	margin-top: -70px;
+	margin-left: 130px;
+}
+.price-list2 .list2-a{
+	color: #FF6700;
+}
+.qian{
+	float: right;
+	margin-top: -70px;
+	font-size: 18px;
+	margin-right: 20px;
+	color: #FF6700;
+}
+.total{
+	width: 800px;
+	height: 200px;
+	background: #ccc;
+	margin-top: 30px;
+}
+.total-span{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 20px;
+}
+.total-span1{
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	font-size: 20px;
+}
+.total h2{
+	float: left;
+	margin-top: 100px;
+	margin-left: -360px;
+	color: #FF6700;
+	font-size: 30px;
+}
+.join{
+	margin-top: 30px;
+}
+.jion1{
+	width: 400px;
+	height: 70px;
+	background: #FF6700;
+	text-align: center;
+	line-height: 70px;
+	font-size: 21px;
+	color: #fff;
+	float: left;
+}
+.jion2{
+	width: 200px;
+	height: 70px;
+	background: #ccc;
+	text-align: center;
+	line-height: 70px;
+	font-size: 21px;
+	color: #fff;
+	float: left;
+	margin-left: 50px;
+}
+.container-img{
+	width: 1425px;
+	height: 100px;
+	margin-left: -800px;
+}
+.nine-list .list-sp{
+	font-size: 20px;
+	margin-left: -250px;
+	float: left;
+	margin-top: 10px;
+	color: #FF6700;
+}
+.nine-list p{
+	float: left;
+	font-size: 20px;
+	margin-left: -250px;
+	margin-top: 35px;
+	color: #FF6700;
+}
+.nine-list1{
+	width: 800px;
+	height: 100px;
+	background: #ccc;
+	float: left;
+	margin-top: 60px;
+}

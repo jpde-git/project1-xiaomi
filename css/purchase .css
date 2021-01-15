@@ -1,0 +1,176 @@
+body,ul,li{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	height:2500px;
+}
+ul{
+	list-style:none;
+}
+.container{
+	width: 1425px;
+	margin: 0 auto;
+}
+/*解决高度塌陷*/
+.container::before,.container::after,.clearfix::before,.clearfix::after{
+	content:"";
+	display:table;
+}
+.container::after,.clearfix::after{
+	clear:both;
+}
+
+/*主体设计样式*/
+.seckill{
+	background-color:#f5f5f5;
+	width: 1425px;
+	margin-left: 230px;
+}
+.seckill-header{
+	background:url(../img/sss.png) no-repeat 50% 0;
+	height:170px;
+	margin-top:19px;
+}
+.seckill-nav{
+	margin:-68px 0 22px;
+}
+.seckill-navfixed{
+	position:fixed;
+	top:60px;
+}
+.seckill-nav em{
+	display:inline-block;
+	font-style:normal;
+	font-size:18px;
+	line-height:1;/*和字体一样大*/
+	vertical-align:middle;
+	margin-left:30px;
+}
+.seckill-nav span{
+	display:inline-block;
+	margin-left:15px;
+	text-align:left;
+	line-height:1;
+	vertical-align:middle;
+	font-size:14px;
+}
+.seckill-nav ul{
+	height:68px;
+	background:#414141;
+}
+.seckill-nav ul li span em{
+	display:inline-block;
+	font-size:14px;
+	margin-left:0;
+	font-style:normal;
+	text-align:left;
+	line-height:20px;
+}
+.seckill-nav li{
+	display:block;
+	color:#fff;
+	width:20%;
+	text-align:center;
+	float:left;
+	height:68px;
+	line-height:68px;
+	cursor:pointer;/*鼠标形状*/
+	
+}
+.seckill-nav .active{
+	background-color:#F00;
+}
+.seckill-goods ul{
+	margin-right:-13px;
+	display:none;/*隐藏多余商品*/
+}
+.seckill-goods .active{
+	display:block;
+}
+
+.seckill-goods li{
+	float:left;
+	width:400px;
+	height:190px;
+	background-color:#fff;
+	margin-right:13px;
+	margin-bottom:13px;
+}
+.seckill-goods li:hover{
+	box-shadow: 4px 4px 20px #bbb;
+	cursor: pointer;
+	top: -2px;
+}
+.seckill-goods .bg{
+	float:left;
+	width:190px;
+	height:190px;
+
+}
+.seckill-goods .bg img{
+	height:190px;
+}
+.seckill-goods .info{
+    margin-left:210px;
+	width:190px;
+	height:190px;
+	padding-top:30px;
+	
+}
+.seckill-goods .info .name{
+	font-size:16px;
+	color:#333;
+	height:16px;
+	display:block;
+	white-space:nowrap;/*取消换行*/
+	overflow:hidden;/*隐藏多余部分*/
+	text-overflow:ellipsis;/*显示点*/
+	line-height:16px;
+	
+}
+.seckill-goods .info .tips{
+	font-size:12px;
+	line-height:12px;
+	color:#b0b0b0;
+	margin-top:10px;
+}
+.seckill-goods .info .price{
+	font-size:16px;
+	line-height:16px;
+	color:#f1393a;
+	margin-top:14px;
+	margin-bottom:0;
+}
+.seckill-goods .info .price del{
+	color:#999;
+	font-size:12px;
+	line-height:12px;
+	margin-left:10px;
+}
+.seckill-goods .info .btn{
+	display:inline-block;
+	width:118px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	background-color:#f1393a;
+	font-size:14px;
+	color:#fff;
+	margin-top:19px;
+	border:1px solid #f1393a;
+	
+}
+.seckill-goods .info .person{
+	font-size:12px;
+	line-height:12px;
+	color:#999;
+	margin-top:10px;
+}
+.seckill-notice{
+	font-size:12px;
+	color:#999;
+	margin-top:100px;
+	padding-bottom:35px;
+}
